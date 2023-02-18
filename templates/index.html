@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>Grad School HTML5 Template</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-grad-school.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/lightbox.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/table.scss' %}">
+<!--
+    
+TemplateMo 557 Grad School
+
+https://templatemo.com/tm-557-grad-school
+
+-->
+  </head>
+
+<body>
+
+   
+  <!--header-->
+  <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>B</em>Coder</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+        <li><a href="#section1">Home</a></li>
+        <li class="has-submenu"><a href="#section2">Courses</a>
+          <ul class="sub-menu">
+            <li><a href="#section2">Who we are?</a></li>
+            <li><a>What we do?</a></li>
+            <li><a>How it works?</a></li>
+            <li><a href="https://templatemo.com/about" rel="sponsored" class="external">External URL</a></li>
+          </ul>
+        </li>
+        <!-- <li><a href="#section5">Video</a></li> -->
+        <li><a href="section6">Groups</a></li>
+        <li><a href="./marks.html"  class="external">Marks</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ***** Main Banner Area Start ***** -->
+  <section class="section main-banner" id="top" data-section="section1">
+      <video autoplay muted loop id="bg-video">
+          <source src="assets/images/course-video.mp4" type="video/mp4" />
+      </video>
+
+      <div class="video-overlay header-text">
+          <div class="caption">
+              <h6>Graduate Be Coder</h6>
+              <h2><em>Be</em> Master</h2>
+          </div>
+      </div>
+  </section>
+  <!-- ***** Main Banner Area End ***** -->
+
+
+  <section class="features">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-12">
+          <div class="features-post">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-pencil"></i>All Courses</h4>
+              </div>
+              <div class="content-hide">
+                <p>We have 3 major courses and they are Javascript, Python and Artificial Inteligence.</p>
+                
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post second-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+              </div>
+              <div class="content-hide">
+                <p>Also you can participate in real classes with the specialists Online</p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="features-post third-features">
+            <div class="features-content">
+              <div class="content-show">
+                <h4><i class="fa fa-book"></i>Real Professionals.</h4>
+              </div>
+              <div class="content-hide">
+                <p>We highly care about quality of study in our system, so we only hire people who are individually and physically strong</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Programming Courses.</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div id='tabs'>
+            <ul>
+              <li><a href='#tabs-1'>JS</a></li>
+              <li><a href='#tabs-2'>Python</a></li>
+              <li><a href='#tabs-3'>AI</a></li>
+            </ul>
+            <section class='tabs-content'>
+              <article id='tabs-1'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-01.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>JavaScript</h4>
+                    <p>One of the most needed and required programming skills now a days for both frontend and backend parts.</p>
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-2'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-02.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>Python</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ea voluptas temporibus libero earum odit laudantium tempore rerum vel, neque illum recusandae, delectus praesentium iste facere debitis omnis aut. Delectus doloribus cum dignissimos maiores obcaecati eius voluptates aut architecto, ex molestias! Voluptate quidem ab est blanditiis ipsum inventore nesciunt quibusdam.</p> 
+                  </div>
+                </div>
+              </article>
+              <article id='tabs-3'>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="{% static 'assets/images/choose-us-image-03.png' %}" alt="">
+                  </div>
+                  <div class="col-md-6">
+                    <h4>AI</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eum laboriosam at quis enim tenetur placeat nobis fugiat, cupiditate praesentium natus. Maxime, quisquam doloremque. Quod doloremque reiciendis explicabo modi fugiat, voluptates veniam blanditiis? Nihil, modi commodi. Vitae omnis veniam praesentium ipsa quis, repellendus corporis cumque dolorum beatae animi voluptas iste.</p>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="cards-mother" data-section="section6" >
+    <div class="cards">
+      <ul>
+        <li class="groupname">JavaScript</li>
+        <li class="students">Javokhir</li>
+        <li class="students">Sardor</li>
+        <li class="students">Umar</li>
+      </ul>
+    </div>
+    <div class="cards">
+      <ul>
+        <li class="groupname">Python</li>
+        <li class="students">Javokhir</li>
+        <li class="students">Sardor</li>
+        <li class="students">Umar</li>
+      </ul>
+    </div>
+    <div class="cards">
+      <ul>
+        <li class="groupname">AI</li>
+        <li class="students">Javokhir</li>
+        <li class="students">Sardor</li>
+        <li class="students">Umar</li>
+      </ul>
+    </div>
+  </section>
+  <div class="container">
+	
+    
+  
+  
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/isotope.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'assets/js/lightbox.js' %}"></script>
+    <script src="{% static 'assets/js/tabs.js' %}"></script>
+    <script src="{% static 'assets/js/video.js' %}"></script>
+    <script src="{% static 'assets/js/slick-slider.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script>
+        //according to loftblog tut
+        $('.nav li:first').addClass('active');
+
+        var showSection = function showSection(section, isAnimate) {
+          var
+          direction = section.replace(/#/, ''),
+          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+          reqSectionPos = reqSection.offset().top - 0;
+
+          if (isAnimate) {
+            $('body, html').animate({
+              scrollTop: reqSectionPos },
+            800);
+          } else {
+            $('body, html').scrollTop(reqSectionPos);
+          }
+
+        };
+
+        var checkSection = function checkSection() {
+          $('.section').each(function () {
+            var
+            $this = $(this),
+            topEdge = $this.offset().top - 80,
+            bottomEdge = topEdge + $this.height(),
+            wScroll = $(window).scrollTop();
+            if (topEdge < wScroll && bottomEdge > wScroll) {
+              var
+              currentId = $this.data('section'),
+              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+              reqLink.closest('li').addClass('active').
+              siblings().removeClass('active');
+            }
+          });
+        };
+
+        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
+          if($(e.target).hasClass('external')) {
+            return;
+          }
+          e.preventDefault();
+          $('#menu').removeClass('active');
+          showSection($(this).attr('href'), true);
+        });
+
+        $(window).scroll(function () {
+          checkSection();
+        });
+    </script>
+</body>
+</html>
